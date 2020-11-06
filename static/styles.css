@@ -1,0 +1,62 @@
+/* home page */
+#background{
+    background-image: url("../templates/background.png");
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 35%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1rem;
+
+}
+
+.caption h6{
+    width: 100%;
+    /* max-width: 75%; */
+    /* min-width: 25%; */
+    text-align: center;
+    text-transform: none;
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.75rem;
+
+}
+
+.btn-lg{
+    border-width: medium;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Navigation */
+.navbar {
+    background-color: rgba(0, 0, 0, .95);
+}
+
+.rel1{
+    width: 100%;
+    max-width: 100%;
+    top: 15%;
+    position: absolute;
+}
