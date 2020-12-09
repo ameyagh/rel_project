@@ -1,9 +1,13 @@
 /* home page */
-#background{
+/* #background{
     background-image: url("../templates/background.png");
     width: 10px;
     height: 10px;
     background-color: aqua;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Teko&family=Ubuntu&display=swap');
+html, body{
+    font-family: 'Poppins', sans-serif;
 }
 
 .caption{
@@ -29,6 +33,11 @@
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 1rem;
 
+}
+
+.caption p{
+    font-size: 0.75rem;
+    padding-top: 5rem;
 }
 
 .caption h6{
@@ -58,5 +67,18 @@
     width: 100%;
     max-width: 100%;
     top: 15%;
+    position: fixed;
+}
+.rel1h{
+    /* width: 100%;
+    max-width: 100%; */
+    top: 25%;
     position: absolute;
 }
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+  }

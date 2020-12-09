@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+   body{
+    /*background-image: url( {{ url_for('static', filename='background.png') }} );*/
+    background-color: linear-gradient(to bottom right, blue, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+</style>
+
+<div class="container-fluid caption text-center">
+    <h1>Definition of Religion</h1>
+</div>
+<div class="container-fluid text-center" style="color: white; position: absolute; top: 50%; padding-left: 5%; padding-right: 5%;">
+    <p class="pb-2">
+        Emile Durkheim defines religion to be a unified system of beliefs and practices relative to sacred things, both physical and emotional which unite into one single moral community.
+    </p>
+    <p class="pb-2">
+        Durkheim’s definition of religion plays a key role in the claim that Hindu and Jewish rituals both focus on creating an emotional connection with the divine as well as helping connect people with their respective religious communities. 
+    </p>
+    <p>
+        Rituals are a key part of this unified system of beliefs and practices, in which Durkheim believes to be the basis of religion. Durkheim talks about how these beliefs and practices have both an emotional and physical aspect to them, which helps people connect with their religious communities. This directly relates back to the claim in which the point being made is that rituals help to create an emotional connection with the divine and connect religion communities together. 
+    </p> 
+</div>
+
+{% endblock content %}
