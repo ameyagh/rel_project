@@ -24,7 +24,6 @@ def rel2():
 def defn():
     return render_template('def.html', title='Religion Definition')
 
-
 if __name__ == '__main__':
     app.secret_key = app.config['SECRET_KEY']
     app.run(debug=True)
